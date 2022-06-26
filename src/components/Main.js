@@ -220,7 +220,7 @@ const Main = () => {
           <h2>Click on Logo</h2>
         </Center>
 
-        {/* <Login to="/signin">
+         <Login to="/signin">
           <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
             Login
           </motion.h2>
@@ -230,7 +230,7 @@ const Main = () => {
           <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
             Register
           </motion.h2>
-        </Register> */}
+        </Register> 
 
         <Contact
           target="_blank"
