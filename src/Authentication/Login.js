@@ -35,7 +35,7 @@ console.log("1");
       console.log("Invalid");
     }else{
       window.alert("Login Successful");
-      history.push("/home");
+      history.push("/");
     }
 
   }
