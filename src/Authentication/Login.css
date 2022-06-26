@@ -1,0 +1,89 @@
+/* input[type=text], input[type=password]  */
+.login-input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #f1f1f1;
+  background: #f1f1f1;
+border-radius: 22.5px;
+}
+
+ .login-input:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+.login-button {
+   background-color: #ff7b00;
+  color: black;
+  border-radius: 25px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.login-button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.Left-Sign-In{
+  width:33.33%;
+  background-image: url("https://i.redd.it/2uqrym7otxk01.png");
+  position: absolute;
+background-size: cover;
+      top:0%;
+bottom:0%;
+right:0%;
+color:white;
+
+}
+.box-signIn{
+  background-color: black;
+  position: absolute;
+  bottom: 0%;
+  top:0%;
+  width:100%;
+}
+
+.label-elem-signin{
+  width:70%;
+  margin-left: 15%;
+  margin-top: 22.5%;
+
+}
+.container-signin {
+    padding: 7.5px;
+  
+  width:55%;
+    margin-left:0.5%;
+    align-items: center;
+    align-content: center;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
