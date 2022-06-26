@@ -3,8 +3,7 @@ import React from "react";
 
 import "./Parallax.css";
 
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
+// import Typography from "@material-ui/core/Typography";
 
 import avatar from "../assets/Images/avatar.jpeg";
 import { makeStyles } from "@material-ui/core/styles";
@@ -14,7 +13,6 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 
 import "./About.css";
 
-import Slider from "@material-ui/core/Slider";
 
 const classes = makeStyles((theme) => ({
   root: {
@@ -64,23 +62,23 @@ const AboutPage = () => {
               backgroundSize: "50%",
             }}
           >
-            <Typography
-            //gutterBottom variant="subtitle1"
+            {/* <Typography */}
+            {/* //gutterBottom variant="subtitle1"
+            > */}
+            <div
+              style={{
+                fontSize: "3.05rem",
+                paddingTop: "5%",
+                color: "white",
+                marginLeft: "35.95%",
+                display: "inline-block",
+              }}
+              gutterBottom
+              variant="subtitle1"
             >
-              <div
-                style={{
-                  fontSize: "3.05rem",
-                  paddingTop: "5%",
-                  color: "white",
-                  marginLeft: "34.75%",
-                  display: "inline-block",
-                }}
-                gutterBottom
-                variant="subtitle1"
-              >
-                Hy, I'm A D I T Y A
-              </div>
-            </Typography>
+              Hy, I'm A D I T Y A
+            </div>
+            {/* </Typography> */}
             <Grid container spacing={2}>
               <Grid item xs={12} sm container>
                 <Grid item xs container direction="column" spacing={2}>
@@ -97,8 +95,8 @@ const AboutPage = () => {
                     </Grid>
                     <br />
                     <br />
-
-                    <Typography
+                    {/* Typography */}
+                    <div
                       className={classes.Typography}
                       variant="body2"
                       gutterBottom
@@ -109,8 +107,10 @@ const AboutPage = () => {
                       }}
                     >
                       Full Stack MERN Developer
-                    </Typography>
-                    <Typography
+                    </div>
+                    // Typography
+                    {/* <Typography */}
+                    <div
                       className={classes.Typography}
                       style={{
                         marginLeft: "47%",
@@ -120,10 +120,12 @@ const AboutPage = () => {
                       variant="body2"
                     >
                       B.Tech
-                    </Typography>
+                      </div>
+                    {/* </Typography> */}
                   </Grid>
                   <Grid item>
-                    <Typography
+                    {/* <Typography */}
+                      <div
                       style={{
                         fontSize: "1.25rem",
                         paddingTop: "25px",
@@ -134,7 +136,8 @@ const AboutPage = () => {
                     >
                       Hardworking, Passionate, Great Thinker, Open-Minded, Great
                       Problem Solver, Optimistic, Nut-Picker ...
-                    </Typography>
+                    </div>
+                    {/* </Typography> */}
                   </Grid>
 
                   <div
@@ -342,7 +345,6 @@ const AboutPage = () => {
                           color: "lightblue",
                           fontSize: "1.35rem",
                           fontWeight: "bold",
-                        
                         }}
                       >
                         Download Resume
